@@ -1,0 +1,7 @@
+GET http://localhost:8080/project/hello
+###
+GET http://localhost:8080/project/message
+###
+POST http://localhost:8080/project/message
+
+dup1A1

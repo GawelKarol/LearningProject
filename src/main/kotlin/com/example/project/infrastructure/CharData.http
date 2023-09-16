@@ -1,0 +1,30 @@
+POST http://localhost:8080/character/dupa12334
+Content-Type: application/json
+
+{
+  "vocation": "RP",
+  "level": 145,
+  "skill": {
+    "type": "Distance",
+    "level": 145
+  },
+  "items": [
+    "zaoan helmet",
+    "maa",
+    "yalahari legs",
+    "boh"
+  ],
+  "potions": [
+    {
+      "name": "mana",
+      "power": 50
+    },
+    {
+      "name": "health",
+      "power": 120
+    }
+  ]
+}
+
+###
+GET http://localhost:8080/character/allChar
