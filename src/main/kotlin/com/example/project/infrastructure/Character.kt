@@ -1,6 +1,7 @@
 package com.example.project.infrastructure
 
 data class Character (
+    // charName -> biznes ID
     val vocation: String,
     val level : Int,
     val skill : Skill,
